@@ -34,6 +34,9 @@ This repository contains a Java project designed to handle local database operat
 
 3.  **Add SQLite JDBC Driver:**
     If you aren't using Maven/Gradle, ensure the `sqlite-jdbc.jar` is added to your Project Structure under **Libraries**.
+    if u haven't install sqlite and the driver jdbc , go to the sqlite site or u can click link below
+    [Click here to install sqlite3]( https://sqlite.org/download.html)
+    [JDBC Driver](https://sourceforge.net/projects/sqlite-jdbc-driver.mirror/)
 
 ## 💻 Code Example
 
@@ -56,3 +59,6 @@ public class Database {
         }
     }
 }
+
+
+
